@@ -2,12 +2,12 @@ package com.example.cronoq_group8.quarter2;
 
 import org.junit.Test;
 
-public class Estreramp1  {
+public class Ladreramp2  {
     @Test
     public void printMyProfile() {
-        String myName = "Allyza";
-        String petName = "Allyshen";
-        String favFood = "Caldereta";
+        String myName = "Simon";
+        String petName = "Kuro";
+        String favFood = "Adobo";
         int myAge = 17;
 
         System.out.println("--- MY DIGITAL PROFILE ---");
@@ -15,7 +15,8 @@ public class Estreramp1  {
         System.out.println("I have a wonderful pet named" + petName + ".");
         System.out.println("If I could, I would eat" + favFood + "every single day");
 
-    }}
+    }
+}
 
 
 
