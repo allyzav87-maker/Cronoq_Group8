@@ -2,13 +2,14 @@ package com.example.cronoq_group8.quarter2;
 
 import org.junit.Test;
 
-public class Estreramp2  {
+public class EstreraTest {
     @Test
     public void printMyProfile() {
         String myName = "Allyza";
         String petName = "Allyshen";
         String favFood = "Caldereta";
         int myAge = 17;
+
 
         System.out.println("--- MY DIGITAL PROFILE ---");
         System.out.println("Hello, my name is" + myName + " and I am " + myAge + "years old.");
