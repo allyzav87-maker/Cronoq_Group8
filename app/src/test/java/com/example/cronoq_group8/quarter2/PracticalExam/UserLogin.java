@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Verify_username_and_password {
+public class UserLogin {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
