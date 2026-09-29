@@ -25,6 +25,7 @@ public class PracticalExam {
 
             switch (choice) {
                 case 1:
+                    LoginUser UserLogin;
                     UserLogin.runFeature(scanner);
                     break;
                 case 2:
