@@ -25,30 +25,16 @@ public class PracticalExam {
 
             switch (choice) {
                 case 1:
-                    LoginUser UserLogin;
-                    UserLogin.runFeature(scanner);
+                    LoginUser.runFeature(scanner);
                     break;
                 case 2:
-                    // ProcessAvailability feature call
-                    System.out.println("\n--- PROCESS AVAILABILITY FEATURE ---");
-                    System.out.println("Select Status (1 = Available, 2 = Busy, 3 = Out of Office): ");
-                    int status = scanner.nextInt();
-                    System.out.println(status); // Echo input
-                    if (status == 3) {
-                        System.out.println("Status updated to: Out of Office (Estimated Return Time: 12:30 PM)");
-                    } else if (status == 1) {
-                        System.out.println("Status updated to: Available");
-                    } else if (status == 2) {
-                        System.out.println("Status updated to: Busy");
-                    } else {
-                        System.out.println("Invalid status option selected.");
-                    }
+                    ProcessAvailability.runFeature(scanner);
                     break;
                 case 3:
                     ProcessMeetingDecision.runFeature(scanner);
                     break;
                 case 4:
-                    Remove_pending_request.removePendingRequest(scanner);
+                    Remove_pending_request.runFeature(scanner);
                     break;
                 case 5:
                     System.out.println("\nExiting ChronoQ System. Goodbye!");
