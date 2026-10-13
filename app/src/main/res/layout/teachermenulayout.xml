@@ -1,6 +1,185 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="604dp"
+        android:layout_height="884dp"
+        app:srcCompat="@drawable/_3_20261013_141128_0001"
+        tools:layout_editor_absoluteX="-97dp"
+        tools:layout_editor_absoluteY="-120dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="260dp"
+        android:layout_height="43dp"
+        android:text="Student Ladrera"
+        android:textColor="#2B622C"
+        android:textColorLink="#27ED2F"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="92dp"
+        android:layout_height="34dp"
+        android:backgroundTint="#4CAF50"
+        android:shadowColor="#4CAF50"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="10sp"
+        app:rippleColor="#ED1717"
+        app:strokeColor="#EB2626"
+        tools:layout_editor_absoluteX="315dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="133dp"
+        android:layout_height="114dp"
+        android:text="Mr. Gabriel Alfonso Status: Busy  Estimated Return Time: 2:30 PM  Note: Currently conducting a laboratory class."
+        android:textColor="#000000"
+        android:textColorLink="#000000"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="160dp"
+        android:layout_height="111dp"
+        android:text="Mr. Christian Modesto Status: Out of Office  Estimated Return Time: 4:00 PM  Note: Attending a faculty workshop off-campus."
+        android:textColor="#000000"
+        android:textColorLink="#000000"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="531dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="116dp"
+        android:layout_height="32dp"
+        android:backgroundTint="#4CAF50"
+        android:shadowColor="#4CAF50"
+        android:text="Send Request"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="10sp"
+        app:rippleColor="#ED1717"
+        app:strokeColor="#EB2626"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="653dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="116dp"
+        android:layout_height="32dp"
+        android:backgroundTint="#4CAF50"
+        android:shadowColor="#4CAF50"
+        android:text="Send Request"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="10sp"
+        app:rippleColor="#ED1717"
+        app:strokeColor="#EB2626"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="477dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="116dp"
+        android:layout_height="32dp"
+        android:backgroundTint="#4CAF50"
+        android:shadowColor="#4CAF50"
+        android:text="Send Request"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="10sp"
+        app:rippleColor="#ED1717"
+        app:strokeColor="#EB2626"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="230dp"
+        android:layout_height="161dp"
+        app:srcCompat="@drawable/images"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="205dp"
+        android:layout_height="157dp"
+        app:srcCompat="@drawable/images__4_"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="234dp"
+        android:layout_height="162dp"
+        app:srcCompat="@drawable/images__3_"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="523dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="116dp"
+        android:layout_height="32dp"
+        android:backgroundTint="#4CAF50"
+        android:shadowColor="#4CAF50"
+        android:text="Send Request"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="10sp"
+        app:rippleColor="#ED1717"
+        app:strokeColor="#EB2626"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teachers"
+        android:textColor="#2B622C"
+        android:textColorLink="#27ED2F"
+        android:textSize="35sp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="171dp"
+        android:layout_height="105dp"
+        android:text="Mr. Roberto Mendoza                      Status: Available  Department: ICT / Computer Lab  Note: Ready for consultations and student meetings"
+        android:textColor="#000000"
+        android:textColorLink="#000000"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="88dp"
+        android:layout_height="63dp"
+        app:srcCompat="@drawable/studnet_icon_removebg_preview"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="-1dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
