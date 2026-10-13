@@ -43,7 +43,7 @@
         android:text="Dismiss"
         android:textStyle="bold|italic"
         tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="569dp" />
+        tools:layout_editor_absoluteY="564dp" />
 
     <TextView
         android:id="@+id/textView6"
@@ -59,7 +59,7 @@
         android:layout_width="172dp"
         android:layout_height="325dp"
         app:srcCompat="@drawable/thttt_removebg_preview"
-        tools:layout_editor_absoluteX="-15dp"
+        tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <ImageView
