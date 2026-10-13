@@ -63,7 +63,7 @@
         android:id="@+id/studentname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Maria Santos (Grade 11 ICT)"
+        android:text="Ladrera Simon (Grade 12 ICT)"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="154dp"
         tools:layout_editor_absoluteY="253dp" />
@@ -72,7 +72,7 @@
         android:id="@+id/infoofrequest"
         android:layout_width="234dp"
         android:layout_height="201dp"
-        android:text="Topic: Quarter 2 Performance Check  Requested Date & Time: Oct 16, 2026 | 10:30 AM – 11:00 AM                                Reason: &quot;Hi Sir/Ma'am! I would like to consult with you regarding my missing laboratory submission for Performance Task # 2 and ask if I can submit a make-up output.&quot;"
+        android:text="Topic: Quarter 2 Performance Check  Requested Date & Time: Oct 16, 2026 | 10:30 AM – 11:00 AM    Reason: &quot;Hi Sir! I would like to consult with you regarding my missing laboratory submission for Performance Task # 2 and ask if I can submit a make-up output.&quot;"
         tools:layout_editor_absoluteX="88dp"
         tools:layout_editor_absoluteY="314dp" />
 
@@ -80,7 +80,7 @@
         android:id="@+id/teachername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Teacher Sixson"
+        android:text="Teacher Mendoza"
         android:textSize="20sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="144dp"
