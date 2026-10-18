@@ -10,8 +10,8 @@
         android:layout_width="647dp"
         android:layout_height="1075dp"
         app:srcCompat="@drawable/images"
-        tools:layout_editor_absoluteX="-67dp"
-        tools:layout_editor_absoluteY="-186dp" />
+        tools:layout_editor_absoluteX="-66dp"
+        tools:layout_editor_absoluteY="-184dp" />
 
     <ImageView
         android:id="@+id/background1"
@@ -23,11 +23,13 @@
 
     <Button
         android:id="@+id/accept2"
-        android:layout_width="94dp"
-        android:layout_height="35dp"
+        android:layout_width="91dp"
+        android:layout_height="41dp"
         android:backgroundTint="#2DB42D"
+        android:fontFamily="sans-serif-medium"
         android:text="Back"
-        app:strokeColor="#F00808"
+        android:textColor="#FFFFFF"
+        app:strokeColor="#FFFFFF"
         tools:layout_editor_absoluteX="284dp"
         tools:layout_editor_absoluteY="71dp" />
 
@@ -36,9 +38,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#E91506"
+        android:fontFamily="sans-serif-black"
         android:text="Decline"
         app:strokeColor="#F00808"
-        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteX="226dp"
         tools:layout_editor_absoluteY="559dp" />
 
     <ImageView
@@ -54,7 +57,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#4CAF50"
+        android:fontFamily="sans-serif-black"
         android:text="Accept"
+        android:textColor="#FFFCFC"
         app:strokeColor="#F00808"
         tools:layout_editor_absoluteX="97dp"
         tools:layout_editor_absoluteY="559dp" />
@@ -70,21 +75,23 @@
 
     <TextView
         android:id="@+id/infoofrequest"
-        android:layout_width="234dp"
-        android:layout_height="201dp"
+        android:layout_width="244dp"
+        android:layout_height="204dp"
         android:text="Topic: Quarter 2 Performance Check  Requested Date & Time: Oct 16, 2026 | 10:30 AM – 11:00 AM    Reason: &quot;Hi Sir! I would like to consult with you regarding my missing laboratory submission for Performance Task # 2 and ask if I can submit a make-up output.&quot;"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="314dp" />
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="309dp" />
 
     <TextView
         android:id="@+id/teachername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="serif"
         android:text="Teacher Mendoza"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="28dp" />
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="30dp" />
 
     <TextView
         android:id="@+id/StudentRequestMeetingtext"

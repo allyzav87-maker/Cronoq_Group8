@@ -15,19 +15,20 @@
 
     <TextView
         android:id="@+id/studentINFOname"
-        android:layout_width="260dp"
-        android:layout_height="43dp"
+        android:layout_width="191dp"
+        android:layout_height="39dp"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="Student Ladrera"
         android:textColor="#2B622C"
         android:textColorLink="#27ED2F"
-        android:textSize="25sp"
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="27dp" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="92dp"
-        android:layout_height="34dp"
+        android:layout_width="96dp"
+        android:layout_height="43dp"
         android:backgroundTint="#4CAF50"
         android:shadowColor="#4CAF50"
         android:text="Back"
@@ -38,13 +39,14 @@
         android:textSize="10sp"
         app:rippleColor="#ED1717"
         app:strokeColor="#EB2626"
-        tools:layout_editor_absoluteX="315dp"
-        tools:layout_editor_absoluteY="28dp" />
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="27dp" />
 
     <TextView
         android:id="@+id/teacher2info"
         android:layout_width="133dp"
         android:layout_height="114dp"
+        android:fontFamily="serif"
         android:text="Mr. Gabriel Alfonso Status: Busy  Estimated Return Time: 2:30 PM  Note: Currently conducting a laboratory class."
         android:textColor="#000000"
         android:textColorLink="#000000"
@@ -55,6 +57,7 @@
         android:id="@+id/teacher3info"
         android:layout_width="160dp"
         android:layout_height="111dp"
+        android:fontFamily="serif"
         android:text="Mr. Christian Modesto Status: Out of Office  Estimated Return Time: 4:00 PM  Note: Attending a faculty workshop off-campus."
         android:textColor="#000000"
         android:textColorLink="#000000"
@@ -157,17 +160,19 @@
         android:id="@+id/TeachersText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="serif"
         android:text="Teachers"
         android:textColor="#2B622C"
         android:textColorLink="#27ED2F"
         android:textSize="35sp"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="88dp" />
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="93dp" />
 
     <TextView
         android:id="@+id/teacher1info"
         android:layout_width="171dp"
         android:layout_height="105dp"
+        android:fontFamily="serif"
         android:text="Mr. Roberto Mendoza                      Status: Available  Department: ICT / Computer Lab  Note: Ready for consultations and student meetings"
         android:textColor="#000000"
         android:textColorLink="#000000"
@@ -176,10 +181,10 @@
 
     <ImageView
         android:id="@+id/studenticon2"
-        android:layout_width="88dp"
-        android:layout_height="63dp"
+        android:layout_width="100dp"
+        android:layout_height="77dp"
         app:srcCompat="@drawable/studnet_icon_removebg_preview"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="-1dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

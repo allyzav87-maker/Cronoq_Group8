@@ -7,85 +7,103 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="1236dp"
-        android:layout_height="2241dp"
+        android:layout_width="725dp"
+        android:layout_height="887dp"
         app:srcCompat="@drawable/_2_20261013_141128_0000"
-        tools:layout_editor_absoluteX="-147dp"
-        tools:layout_editor_absoluteY="-267dp" />
+        tools:layout_editor_absoluteX="-157dp"
+        tools:layout_editor_absoluteY="-145dp" />
+
+    <Button
+        android:id="@+id/editButton3"
+        android:layout_width="111dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Edit"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="490dp" />
+
+    <Button
+        android:id="@+id/editButton4"
+        android:layout_width="111dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="61dp" />
 
     <TextView
         android:id="@+id/studentname2"
-        android:layout_width="410dp"
-        android:layout_height="76dp"
+        android:layout_width="182dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Teacher Mendoza"
-        android:textSize="40sp"
+        android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="342dp"
-        tools:layout_editor_absoluteY="587dp" />
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="157dp" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="161dp"
-        android:layout_height="234dp"
+        android:layout_width="86dp"
+        android:layout_height="143dp"
         app:srcCompat="@drawable/images__2__removebg_preview"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="475dp" />
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="106dp" />
 
     <TextView
         android:id="@+id/studentname5"
-        android:layout_width="410dp"
-        android:layout_height="76dp"
+        android:layout_width="275dp"
+        android:layout_height="47dp"
+        android:fontFamily="monospace"
         android:text="Student Ladrera"
-        android:textSize="40sp"
+        android:textSize="30sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="349dp"
-        tools:layout_editor_absoluteY="64dp" />
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="274dp"
-        android:layout_height="152dp"
+        android:layout_width="145dp"
+        android:layout_height="73dp"
         app:srcCompat="@drawable/studnet_icon_removebg_preview"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="4dp" />
 
     <TextView
         android:id="@+id/studentrequestinfo"
-        android:layout_width="527dp"
-        android:layout_height="376dp"
+        android:layout_width="288dp"
+        android:layout_height="263dp"
         android:text="Topic: Quarter 2 Performance Check  Requested Date & Time: Oct 16, 2026 | 10:30 AM – 11:00 AM    Reason: &quot;Hi Sir! I would like to consult with you regarding my missing laboratory submission for Performance Task # 2 and ask if I can submit a make-up output.&quot;"
-        android:textSize="35sp"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="742dp" />
-
-    <Button
-        android:id="@+id/EditButton"
-        android:layout_width="245dp"
-        android:layout_height="91dp"
-        android:backgroundTint="#4CAF50"
-        android:text="Edit"
-        android:textSize="35sp"
-        tools:layout_editor_absoluteX="342dp"
-        tools:layout_editor_absoluteY="1248dp" />
-
-    <Button
-        android:id="@+id/editButton"
-        android:layout_width="245dp"
-        android:layout_height="91dp"
-        android:backgroundTint="#4CAF50"
-        android:text="Submit"
-        android:textSize="35sp"
-        tools:layout_editor_absoluteX="349dp"
-        tools:layout_editor_absoluteY="1436dp" />
+        android:textSize="21sp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="220dp" />
 
     <Button
         android:id="@+id/editButton2"
-        android:layout_width="245dp"
-        android:layout_height="91dp"
+        android:layout_width="111dp"
+        android:layout_height="45dp"
         android:backgroundTint="#4CAF50"
-        android:text="Back"
-        android:textSize="35sp"
-        tools:layout_editor_absoluteX="621dp"
-        tools:layout_editor_absoluteY="187dp" />
+        android:fontFamily="sans-serif-black"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="594dp" />
+
+    <Button
+        android:id="@+id/editButton5"
+        android:layout_width="111dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#EB362B"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#FFFFFF"
+        android:text="REMOVE"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="594dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
