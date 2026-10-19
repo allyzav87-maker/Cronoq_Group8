@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="649dp"
+        android:layout_height="1155dp"
+        app:srcCompat="@drawable/teacherstatusbg"
+        tools:layout_editor_absoluteX="-67dp"
+        tools:layout_editor_absoluteY="-212dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/teacherstatus_outline1"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-82dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/teacherstatus_outline1"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="210dp"
+        android:layout_height="31dp"
+        android:text="You are currently: Busy"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="561dp"
+        android:layout_height="797dp"
+        app:srcCompat="@drawable/teacherstatus_outline1"
+        tools:layout_editor_absoluteX="-75dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="610dp"
+        android:layout_height="817dp"
+        app:srcCompat="@drawable/teacherstatus_outline1"
+        tools:layout_editor_absoluteX="-92dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="778dp"
+        android:layout_height="834dp"
+        app:srcCompat="@drawable/teacherstatus_outline1"
+        tools:layout_editor_absoluteX="-171dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="75dp"
+        android:layout_height="68dp"
+        app:srcCompat="@drawable/images__2__removebg_preview"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="149dp"
+        android:layout_height="28dp"
+        android:text="Teacher Mesias"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="69dp"
+        android:layout_height="43dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Back"
+        android:textSize="8sp"
+        tools:layout_editor_absoluteX="313dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="106dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Available"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="106dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#6A6F6A"
+        android:text="Busy"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="106dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Out of Office"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="474dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:text="Shows you are available to the student."
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:text="Shows you are available to the student."
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:text="Shows you are currently busy to the student."
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:text="Shows you are currently out of office in a set time."
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="478dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
