@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="20dp"
+        android:layout_height="779dp"
+        app:srcCompat="@drawable/img"
+        tools:layout_editor_absoluteX="-20dp"
+        tools:layout_editor_absoluteY="-24dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="511dp"
+        android:layout_height="910dp"
+        app:srcCompat="@drawable/img"
+        tools:layout_editor_absoluteX="-99dp"
+        tools:layout_editor_absoluteY="-24dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="276dp"
+        android:layout_height="354dp"
+        app:srcCompat="@drawable/crono_q__1__removebg_preview__1_"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="-40dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/_09_removebg_preview"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/_09_removebg_preview"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="60dp"
+        android:layout_height="56dp"
+        app:srcCompat="@drawable/_7dd1debef8f0c1c125b75e97639d4bfc_removebg_preview"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="114dp"
+        android:layout_height="97dp"
+        app:srcCompat="@drawable/e91c6c0861be18477b02c580fcc3572f_removebg_preview"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="410dp"
+        android:layout_height="74dp"
+        android:fontFamily="@font/aclonica"
+        android:text="STUDENT LOGIN"
+        android:textColor="#F0EEEE"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="E-MAIL:"
+        android:textColor="#F0EAEA"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="PASSWORD:"
+        android:textColor="#F0ECEC"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="164dp"
+        android:layout_height="43dp"
+        android:backgroundTint="#4C9B4E"
+        android:shadowColor="#4DB151"
+        android:text="LOGIN"
+        android:textColor="#E9E2E2"
+        android:textColorHighlight="#2D7530"
+        android:textColorHint="#226A25"
+        android:textColorLink="#307C32"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="587dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
