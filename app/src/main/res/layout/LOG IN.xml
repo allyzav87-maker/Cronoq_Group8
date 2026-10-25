@@ -18,7 +18,7 @@
         android:layout_width="331dp"
         android:layout_height="362dp"
         app:srcCompat="@drawable/crono_q__1__removebg_preview__1_"
-        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteX="40dp"
         tools:layout_editor_absoluteY="-37dp" />
 
     <ImageView
@@ -45,7 +45,7 @@
         android:text="LOGIN"
         android:textColor="#E7E2E2"
         android:textSize="48sp"
-        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteX="110dp"
         tools:layout_editor_absoluteY="285dp" />
 
     <TextView
