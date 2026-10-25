@@ -21,8 +21,8 @@
         android:text="REQUEST MEETING"
         android:textSize="34sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="124dp" />
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="126dp" />
 
     <Button
         android:id="@+id/editButton3"
