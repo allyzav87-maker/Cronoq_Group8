@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="647dp"
+        android:layout_height="1075dp"
+        app:srcCompat="@drawable/images"
+        tools:layout_editor_absoluteX="-118dp"
+        tools:layout_editor_absoluteY="-186dp" />
+
+    <ImageView
+        android:id="@+id/background4"
+        android:layout_width="521dp"
+        android:layout_height="812dp"
+        app:srcCompat="@drawable/_2_20261013_141128_0000"
+        tools:layout_editor_absoluteX="-118dp"
+        tools:layout_editor_absoluteY="-186dp" />
+
+    <Button
+        android:id="@+id/accept3"
+        android:layout_width="91dp"
+        android:layout_height="41dp"
+        android:backgroundTint="#2DB42D"
+        android:fontFamily="sans-serif-medium"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        app:strokeColor="#FFFFFF"
+        tools:layout_editor_absoluteX="-118dp"
+        tools:layout_editor_absoluteY="-186dp" />
+
+    <Button
+        android:id="@+id/accept4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E91506"
+        android:fontFamily="sans-serif-black"
+        android:text="Decline"
+        app:strokeColor="#F00808"
+        tools:layout_editor_absoluteX="-118dp"
+        tools:layout_editor_absoluteY="-186dp" />
+
+    <ImageView
+        android:id="@+id/studenticon3"
+        android:layout_width="182dp"
+        android:layout_height="67dp"
+        app:srcCompat="@drawable/studnet_icon_removebg_preview"
+        tools:layout_editor_absoluteX="-118dp"
+        tools:layout_editor_absoluteY="-186dp" />
+
+    <Button
+        android:id="@+id/accept5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="sans-serif-black"
+        android:text="Accept"
+        android:textColor="#FFFCFC"
+        app:strokeColor="#F00808"
+        tools:layout_editor_absoluteX="-118dp"
+        tools:layout_editor_absoluteY="-186dp" />
+
+    <TextView
+        android:id="@+id/studentname8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ladrera Simon (Grade 12 ICT)"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-118dp"
+        tools:layout_editor_absoluteY="-186dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&lt;TextView&#xA;        android:id=&quot;@+id/infoofrequest&quot;&#xA;        android:layout_width=&quot;244dp&quot;&#xA;        android:layout_height=&quot;204dp&quot;&#xA;        android:text=&quot;Topic: Quarter 2 Performance Check  Requested Date &amp; Time: Oct 16, 2026 | 10:30 AM – 11:00 AM    Reason: &amp;quot;Hi Sir! I would like to consult with you regarding my missing laboratory submission for Performance Task # 2 and ask if I can submit a make-up output.&amp;quot;&quot;&#xA;        android:textSize=&quot;16sp&quot;&#xA;        tools:layout_editor_absoluteX=&quot;83dp&quot;&#xA;        tools:layout_editor_absoluteY=&quot;309dp&quot; />"
+        tools:layout_editor_absoluteX="-118dp"
+        tools:layout_editor_absoluteY="-186dp" />
+
+    <TextView
+        android:id="@+id/teachername2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Teacher Mendoza"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-118dp"
+        tools:layout_editor_absoluteY="-186dp" />
+
+    <TextView
+        android:id="@+id/studentRequestMeetingtext"
+        android:layout_width="299dp"
+        android:layout_height="100dp"
+        android:text="STUDENT REQUEST MEETING"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-118dp"
+        tools:layout_editor_absoluteY="-186dp" />
+
+    <ImageView
+        android:id="@+id/teachericon2"
+        android:layout_width="81dp"
+        android:layout_height="74dp"
+        app:srcCompat="@drawable/images__2__removebg_preview"
+        tools:layout_editor_absoluteX="-118dp"
+        tools:layout_editor_absoluteY="-186dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

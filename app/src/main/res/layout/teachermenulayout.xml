@@ -10,8 +10,8 @@
         android:layout_width="604dp"
         android:layout_height="884dp"
         app:srcCompat="@drawable/_3_20261013_141128_0001"
-        tools:layout_editor_absoluteX="-97dp"
-        tools:layout_editor_absoluteY="-120dp" />
+        tools:layout_editor_absoluteX="-106dp"
+        tools:layout_editor_absoluteY="-104dp" />
 
     <TextView
         android:id="@+id/studentINFOname"
@@ -44,14 +44,14 @@
 
     <TextView
         android:id="@+id/teacher2info"
-        android:layout_width="133dp"
-        android:layout_height="114dp"
+        android:layout_width="153dp"
+        android:layout_height="117dp"
         android:fontFamily="serif"
         android:text="Mr. Gabriel Alfonso Status: Busy  Estimated Return Time: 2:30 PM  Note: Currently conducting a laboratory class."
         android:textColor="#000000"
         android:textColorLink="#000000"
-        tools:layout_editor_absoluteX="218dp"
-        tools:layout_editor_absoluteY="363dp" />
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="360dp" />
 
     <TextView
         android:id="@+id/teacher3info"
@@ -117,11 +117,11 @@
 
     <ImageView
         android:id="@+id/teacherimage1"
-        android:layout_width="230dp"
-        android:layout_height="161dp"
+        android:layout_width="227dp"
+        android:layout_height="146dp"
         app:srcCompat="@drawable/images"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="173dp" />
+        tools:layout_editor_absoluteY="188dp" />
 
     <ImageView
         android:id="@+id/teacherimage2"
@@ -170,14 +170,14 @@
 
     <TextView
         android:id="@+id/teacher1info"
-        android:layout_width="171dp"
-        android:layout_height="105dp"
+        android:layout_width="157dp"
+        android:layout_height="99dp"
         android:fontFamily="serif"
         android:text="Mr. Roberto Mendoza                      Status: Available  Department: ICT / Computer Lab  Note: Ready for consultations and student meetings"
         android:textColor="#000000"
         android:textColorLink="#000000"
         tools:layout_editor_absoluteX="216dp"
-        tools:layout_editor_absoluteY="186dp" />
+        tools:layout_editor_absoluteY="192dp" />
 
     <ImageView
         android:id="@+id/studenticon2"

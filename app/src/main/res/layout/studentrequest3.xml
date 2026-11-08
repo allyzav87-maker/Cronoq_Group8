@@ -21,18 +21,8 @@
         android:text="REQUEST MEETING"
         android:textSize="34sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="139dp" />
-
-    <Button
-        android:id="@+id/editButton"
-        android:layout_width="98dp"
-        android:layout_height="43dp"
-        android:backgroundTint="#4CAF50"
-        android:text="Edit"
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="557dp" />
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="141dp" />
 
     <Button
         android:id="@+id/editButton6"
@@ -94,7 +84,7 @@
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         tools:layout_editor_absoluteX="219dp"
-        tools:layout_editor_absoluteY="628dp" />
+        tools:layout_editor_absoluteY="596dp" />
 
     <Button
         android:id="@+id/editButton7"
@@ -106,6 +96,15 @@
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="628dp" />
+        tools:layout_editor_absoluteY="596dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="267dp"
+        android:layout_height="172dp"
+        android:text="Topic: Math Seatwork Help  Requested Date & Time: Oct 19, 2026 | 1:30 PM – 2:00 PM  Reason: &quot;Hi Sir! I want to ask for help with solving the math seatwork problems before our test.&quot;"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="316dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

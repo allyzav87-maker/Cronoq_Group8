@@ -25,16 +25,6 @@
         tools:layout_editor_absoluteY="126dp" />
 
     <Button
-        android:id="@+id/editButton3"
-        android:layout_width="98dp"
-        android:layout_height="43dp"
-        android:backgroundTint="#4CAF50"
-        android:text="Edit"
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="548dp" />
-
-    <Button
         android:id="@+id/editButton4"
         android:layout_width="108dp"
         android:layout_height="47dp"
@@ -51,6 +41,8 @@
         android:layout_height="46dp"
         android:fontFamily="sans-serif-condensed"
         android:text="Teacher Alfonso"
+        android:textColor="#000000"
+        android:textColorLink="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="153dp"
@@ -87,10 +79,10 @@
         android:id="@+id/studentrequestinfo"
         android:layout_width="267dp"
         android:layout_height="286dp"
-        android:text="Topic: Quarter 2 Performance Check  Requested Date & Time: Oct 16, 2026 | 10:30 AM – 11:00 AM    Reason: &quot;Hi Sir! I would like to consult with you regarding my missing laboratory submission for Performance Task # 2 and ask if I can submit a make-up output.&quot;"
+        android:text="Topic: Quarter 2 Performance Check  Requested Date & Time: Oct 16, 2026 | 2:45PM – 3:30PM    Reason: &quot;Hi Sir! I would like to consult with you regarding my missing laboratory submission for Performance Task # 2 and ask if I can submit a make-up output.&quot;"
         android:textSize="19sp"
         tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="287dp" />
+        tools:layout_editor_absoluteY="302dp" />
 
     <Button
         android:id="@+id/editButton2"
@@ -101,8 +93,8 @@
         android:text="Submit"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="619dp" />
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="605dp" />
 
     <Button
         android:id="@+id/editButton5"
@@ -115,6 +107,6 @@
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         tools:layout_editor_absoluteX="233dp"
-        tools:layout_editor_absoluteY="619dp" />
+        tools:layout_editor_absoluteY="605dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
