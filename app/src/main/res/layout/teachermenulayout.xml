@@ -9,26 +9,39 @@
         android:id="@+id/background3"
         android:layout_width="604dp"
         android:layout_height="884dp"
-        app:srcCompat="@drawable/_3_20261013_141128_0001"
-        tools:layout_editor_absoluteX="-106dp"
-        tools:layout_editor_absoluteY="-104dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732"
+        app:srcCompat="@drawable/_3_20261013_141128_0001" />
 
     <TextView
         android:id="@+id/studentINFOname"
-        android:layout_width="191dp"
-        android:layout_height="39dp"
+        android:layout_width="205dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="27dp"
         android:fontFamily="sans-serif-smallcaps"
         android:text="Student Ladrera"
         android:textColor="#2B622C"
         android:textColorLink="#27ED2F"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="27dp" />
+        app:layout_constraintBottom_toTopOf="@+id/TeachersText"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="96dp"
-        android:layout_height="43dp"
+        android:layout_width="98dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="122dp"
         android:backgroundTint="#4CAF50"
         android:shadowColor="#4CAF50"
         android:text="Back"
@@ -37,37 +50,48 @@
         android:textColorHint="#FFFFFF"
         android:textColorLink="#FFFFFF"
         android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/studentINFOname"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108"
         app:rippleColor="#ED1717"
-        app:strokeColor="#EB2626"
-        tools:layout_editor_absoluteX="309dp"
-        tools:layout_editor_absoluteY="27dp" />
+        app:strokeColor="#EB2626" />
 
     <TextView
         android:id="@+id/teacher2info"
-        android:layout_width="153dp"
-        android:layout_height="117dp"
+        android:layout_width="145dp"
+        android:layout_height="122dp"
+        android:layout_marginEnd="72dp"
         android:fontFamily="serif"
         android:text="Mr. Gabriel Alfonso Status: Busy  Estimated Return Time: 2:30 PM  Note: Currently conducting a laboratory class."
         android:textColor="#000000"
         android:textColorLink="#000000"
-        tools:layout_editor_absoluteX="216dp"
-        tools:layout_editor_absoluteY="360dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <TextView
         android:id="@+id/teacher3info"
-        android:layout_width="160dp"
-        android:layout_height="111dp"
+        android:layout_width="156dp"
+        android:layout_height="140dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="11dp"
         android:fontFamily="serif"
         android:text="Mr. Christian Modesto Status: Out of Office  Estimated Return Time: 4:00 PM  Note: Attending a faculty workshop off-campus."
         android:textColor="#000000"
         android:textColorLink="#000000"
-        tools:layout_editor_absoluteX="218dp"
-        tools:layout_editor_absoluteY="531dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="116dp"
-        android:layout_height="32dp"
+        android:layout_width="146dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginEnd="265dp"
+        android:layout_marginBottom="46dp"
         android:backgroundTint="#4CAF50"
         android:shadowColor="#4CAF50"
         android:text="Send Request"
@@ -76,15 +100,21 @@
         android:textColorHint="#FFFFFF"
         android:textColorLink="#FFFFFF"
         android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/background3"
+        app:layout_constraintTop_toBottomOf="@+id/background3"
         app:rippleColor="#ED1717"
-        app:strokeColor="#EB2626"
-        tools:layout_editor_absoluteX="235dp"
-        tools:layout_editor_absoluteY="653dp" />
+        app:strokeColor="#EB2626" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="116dp"
+        android:layout_width="139dp"
         android:layout_height="32dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="22dp"
         android:backgroundTint="#4CAF50"
         android:shadowColor="#4CAF50"
         android:text="Send Request"
@@ -93,15 +123,19 @@
         android:textColorHint="#FFFFFF"
         android:textColorLink="#FFFFFF"
         android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/teacher3info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/teacherimage3"
+        app:layout_constraintTop_toBottomOf="@+id/teacher2info"
         app:rippleColor="#ED1717"
-        app:strokeColor="#EB2626"
-        tools:layout_editor_absoluteX="235dp"
-        tools:layout_editor_absoluteY="477dp" />
+        app:strokeColor="#EB2626" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="116dp"
+        android:layout_width="0dp"
         android:layout_height="32dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginBottom="2dp"
         android:backgroundTint="#4CAF50"
         android:shadowColor="#4CAF50"
         android:text="Send Request"
@@ -110,39 +144,55 @@
         android:textColorHint="#FFFFFF"
         android:textColorLink="#FFFFFF"
         android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.034"
         app:rippleColor="#ED1717"
-        app:strokeColor="#EB2626"
-        tools:layout_editor_absoluteX="235dp"
-        tools:layout_editor_absoluteY="302dp" />
+        app:strokeColor="#EB2626" />
 
     <ImageView
         android:id="@+id/teacherimage1"
-        android:layout_width="227dp"
-        android:layout_height="146dp"
-        app:srcCompat="@drawable/images"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="188dp" />
+        android:layout_width="196dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="397dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TeachersText"
+        app:srcCompat="@drawable/images" />
 
     <ImageView
         android:id="@+id/teacherimage2"
-        android:layout_width="205dp"
-        android:layout_height="157dp"
-        app:srcCompat="@drawable/images__4_"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="352dp" />
+        android:layout_width="126dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/teacherimage3"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacherimage1"
+        app:srcCompat="@drawable/images__4_" />
 
     <ImageView
         android:id="@+id/teacherimage3"
-        android:layout_width="234dp"
-        android:layout_height="162dp"
-        app:srcCompat="@drawable/images__3_"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="523dp" />
+        android:layout_width="156dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="46dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacherimage2"
+        app:srcCompat="@drawable/images__3_" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="116dp"
-        android:layout_height="32dp"
+        android:layout_width="144dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="25dp"
         android:backgroundTint="#4CAF50"
         android:shadowColor="#4CAF50"
         android:text="Send Request"
@@ -151,40 +201,57 @@
         android:textColorHint="#FFFFFF"
         android:textColorLink="#FFFFFF"
         android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/teacher2info"
+        app:layout_constraintEnd_toEndOf="@+id/button4"
+        app:layout_constraintStart_toEndOf="@+id/teacherimage1"
+        app:layout_constraintTop_toBottomOf="@+id/teacher1info"
         app:rippleColor="#ED1717"
-        app:strokeColor="#EB2626"
-        tools:layout_editor_absoluteX="235dp"
-        tools:layout_editor_absoluteY="302dp" />
+        app:strokeColor="#EB2626" />
 
     <TextView
         android:id="@+id/TeachersText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="49dp"
         android:fontFamily="serif"
         android:text="Teachers"
         android:textColor="#2B622C"
         android:textColorLink="#27ED2F"
         android:textSize="35sp"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="93dp" />
+        app:layout_constraintBottom_toTopOf="@+id/teacherimage1"
+        app:layout_constraintStart_toEndOf="@+id/studenticon2"
+        app:layout_constraintTop_toBottomOf="@+id/studentINFOname" />
 
     <TextView
         android:id="@+id/teacher1info"
-        android:layout_width="157dp"
-        android:layout_height="99dp"
+        android:layout_width="142dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginEnd="48dp"
         android:fontFamily="serif"
         android:text="Mr. Roberto Mendoza                      Status: Available  Department: ICT / Computer Lab  Note: Ready for consultations and student meetings"
         android:textColor="#000000"
         android:textColorLink="#000000"
-        tools:layout_editor_absoluteX="216dp"
-        tools:layout_editor_absoluteY="192dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/background3"
+        app:layout_constraintStart_toStartOf="@+id/teacherimage1"
+        tools:layout_editor_absoluteY="175dp" />
 
     <ImageView
         android:id="@+id/studenticon2"
-        android:layout_width="100dp"
-        android:layout_height="77dp"
-        app:srcCompat="@drawable/studnet_icon_removebg_preview"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="0dp" />
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="193dp"
+        android:layout_marginBottom="111dp"
+        app:layout_constraintBottom_toTopOf="@+id/teacherimage1"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/studnet_icon_removebg_preview" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
