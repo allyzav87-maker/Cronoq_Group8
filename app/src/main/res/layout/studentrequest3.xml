@@ -9,102 +9,143 @@
         android:id="@+id/imageView6"
         android:layout_width="690dp"
         android:layout_height="760dp"
+        app:layout_constraintBaseline_toBaselineOf="parent"
         app:srcCompat="@drawable/_2_20261013_141128_0000"
-        tools:layout_editor_absoluteX="-140dp"
-        tools:layout_editor_absoluteY="-15dp" />
+        tools:layout_editor_absoluteX="-140dp" />
 
     <TextView
         android:id="@+id/REQUESTMEETING2"
-        android:layout_width="283dp"
-        android:layout_height="59dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="24dp"
         android:fontFamily="sans-serif-condensed"
         android:text="REQUEST MEETING"
         android:textSize="34sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="141dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="@+id/studentname4"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15" />
 
     <Button
         android:id="@+id/editButton6"
-        android:layout_width="108dp"
-        android:layout_height="47dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="143dp"
         android:backgroundTint="#4CAF50"
         android:text="Back"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="296dp"
-        tools:layout_editor_absoluteY="55dp" />
+        app:layout_constraintBottom_toTopOf="@+id/studentname3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/studentname3"
-        android:layout_width="171dp"
-        android:layout_height="46dp"
+        android:layout_width="138dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="305dp"
         android:fontFamily="sans-serif-condensed"
         android:text="Teacher Mendoza"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="245dp" />
+        app:layout_constraintBottom_toTopOf="@+id/editButton8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/editButton6" />
 
     <ImageView
         android:id="@+id/imageView14"
-        android:layout_width="101dp"
-        android:layout_height="77dp"
-        app:srcCompat="@drawable/images__2__removebg_preview"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="224dp" />
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginBottom="430dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/studentname3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/studentname4"
+        app:srcCompat="@drawable/images__2__removebg_preview" />
 
     <TextView
         android:id="@+id/studentname4"
-        android:layout_width="288dp"
-        android:layout_height="47dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="161dp"
         android:fontFamily="monospace"
         android:text="Student Ladrera"
         android:textSize="22sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="114dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="@+id/editButton6"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView15"
-        android:layout_width="79dp"
-        android:layout_height="70dp"
-        app:srcCompat="@drawable/studnet_icon_removebg_preview"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="7dp" />
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/REQUESTMEETING2"
+        app:layout_constraintEnd_toStartOf="@+id/editButton6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/studnet_icon_removebg_preview" />
 
     <Button
         android:id="@+id/editButton8"
-        android:layout_width="131dp"
-        android:layout_height="43dp"
+        android:layout_width="151dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="92dp"
         android:backgroundTint="#EB362B"
         android:fontFamily="sans-serif-black"
         android:shadowColor="#FFFFFF"
         android:text="REMOVE"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="219dp"
-        tools:layout_editor_absoluteY="596dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editButton7"
+        app:layout_constraintTop_toBottomOf="@+id/studentname3" />
 
     <Button
         android:id="@+id/editButton7"
-        android:layout_width="119dp"
-        android:layout_height="43dp"
+        android:layout_width="110dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="92dp"
         android:backgroundTint="#4CAF50"
         android:fontFamily="sans-serif-black"
         android:text="Submit"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="596dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editButton8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="267dp"
-        android:layout_height="172dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="108dp"
         android:text="Topic: Math Seatwork Help  Requested Date & Time: Oct 19, 2026 | 1:30 PM – 2:00 PM  Reason: &quot;Hi Sir! I want to ask for help with solving the math seatwork problems before our test.&quot;"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="316dp" />
+        app:layout_constraintBottom_toTopOf="@+id/editButton7"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

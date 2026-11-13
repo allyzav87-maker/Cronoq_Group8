@@ -9,104 +9,145 @@
         android:id="@+id/imageView16"
         android:layout_width="841dp"
         android:layout_height="737dp"
+        app:layout_constraintBaseline_toBaselineOf="parent"
         app:srcCompat="@drawable/_2_20261013_141128_0000"
-        tools:layout_editor_absoluteX="-215dp"
-        tools:layout_editor_absoluteY="-3dp" />
+        tools:layout_editor_absoluteX="-215dp" />
 
     <Button
         android:id="@+id/editButton"
         android:layout_width="103dp"
-        android:layout_height="48dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="21dp"
         android:backgroundTint="#4CAF50"
         android:text="Back"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="274dp"
-        tools:layout_editor_absoluteY="77dp" />
+        app:layout_constraintBottom_toTopOf="@+id/REQUESTMEETING3"
+        app:layout_constraintEnd_toEndOf="@+id/studentname7"
+        app:layout_constraintTop_toBottomOf="@+id/studentname7" />
 
     <TextView
         android:id="@+id/studentname6"
-        android:layout_width="171dp"
-        android:layout_height="46dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="12dp"
         android:fontFamily="sans-serif-condensed"
         android:text="Teacher Modesto"
         android:textColor="#000000"
         android:textColorLink="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="251dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView17"
+        app:layout_constraintTop_toTopOf="@+id/imageView17" />
 
     <ImageView
         android:id="@+id/imageView17"
-        android:layout_width="101dp"
-        android:layout_height="77dp"
-        app:srcCompat="@drawable/images__2__removebg_preview"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="220dp" />
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintEnd_toStartOf="@+id/studentname6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/REQUESTMEETING3"
+        app:srcCompat="@drawable/images__2__removebg_preview" />
 
     <TextView
         android:id="@+id/studentname7"
-        android:layout_width="288dp"
-        android:layout_height="47dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="4dp"
         android:fontFamily="monospace"
         android:text="Student Ladrera"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="119dp"
-        tools:layout_editor_absoluteY="30dp" />
+        app:layout_constraintBottom_toTopOf="@+id/editButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView18"
-        android:layout_width="78dp"
-        android:layout_height="65dp"
-        app:srcCompat="@drawable/studnet_icon_removebg_preview"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="12dp" />
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="69dp"
+        app:layout_constraintBottom_toTopOf="@+id/REQUESTMEETING3"
+        app:layout_constraintEnd_toStartOf="@+id/studentname7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/studnet_icon_removebg_preview" />
 
     <Button
         android:id="@+id/editButton9"
-        android:layout_width="125dp"
-        android:layout_height="52dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="90dp"
         android:backgroundTint="#4CAF50"
         android:fontFamily="sans-serif-black"
         android:text="Submit"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="589dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editButton10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <Button
         android:id="@+id/editButton10"
-        android:layout_width="130dp"
+        android:layout_width="0dp"
         android:layout_height="47dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="90dp"
         android:backgroundTint="#EB362B"
         android:fontFamily="sans-serif-black"
         android:shadowColor="#FFFFFF"
         android:text="REMOVE"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="214dp"
-        tools:layout_editor_absoluteY="594dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editButton9"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <TextView
         android:id="@+id/REQUESTMEETING3"
-        android:layout_width="283dp"
-        android:layout_height="59dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="526dp"
         android:fontFamily="sans-serif-condensed"
         android:text="REQUEST MEETING"
         android:textSize="34sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="146dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editButton"
+        app:layout_constraintStart_toStartOf="@+id/imageView17"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18" />
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="260dp"
-        android:layout_height="194dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="86dp"
         android:text="Topic: Science Lab Report Check Requested Date & Time: Oct 21, 2026 | 4:30 PM – 5:30PM Reason: &quot;Good day, Sir! I would like to check if my diagrams for our science lab report are correct.&quot;"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="309dp" />
+        app:layout_constraintBottom_toTopOf="@+id/editButton9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

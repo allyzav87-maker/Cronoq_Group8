@@ -76,36 +76,12 @@
         android:layout_width="156dp"
         android:layout_height="140dp"
         android:layout_marginEnd="60dp"
-        android:layout_marginBottom="11dp"
         android:fontFamily="serif"
         android:text="Mr. Christian Modesto Status: Out of Office  Estimated Return Time: 4:00 PM  Note: Attending a faculty workshop off-campus."
         android:textColor="#000000"
         android:textColorLink="#000000"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="146dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="124dp"
-        android:layout_marginEnd="265dp"
-        android:layout_marginBottom="46dp"
-        android:backgroundTint="#4CAF50"
-        android:shadowColor="#4CAF50"
-        android:text="Send Request"
-        android:textColor="#FFFFFF"
-        android:textColorHighlight="#FFFFFF"
-        android:textColorHint="#FFFFFF"
-        android:textColorLink="#FFFFFF"
-        android:textSize="10sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/background3"
-        app:layout_constraintTop_toBottomOf="@+id/background3"
-        app:rippleColor="#ED1717"
-        app:strokeColor="#EB2626" />
 
     <Button
         android:id="@+id/button4"
@@ -134,8 +110,7 @@
         android:id="@+id/button3"
         android:layout_width="0dp"
         android:layout_height="32dp"
-        android:layout_marginTop="340dp"
-        android:layout_marginBottom="2dp"
+        android:layout_marginTop="288dp"
         android:backgroundTint="#4CAF50"
         android:shadowColor="#4CAF50"
         android:text="Send Request"
@@ -144,12 +119,10 @@
         android:textColorHint="#FFFFFF"
         android:textColorLink="#FFFFFF"
         android:textSize="10sp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="@+id/button"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.034"
         app:rippleColor="#ED1717"
         app:strokeColor="#EB2626" />
 
@@ -225,8 +198,8 @@
 
     <TextView
         android:id="@+id/teacher1info"
-        android:layout_width="142dp"
-        android:layout_height="127dp"
+        android:layout_width="143dp"
+        android:layout_height="144dp"
         android:layout_marginStart="200dp"
         android:layout_marginEnd="48dp"
         android:fontFamily="serif"
